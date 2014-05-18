@@ -1,0 +1,32 @@
+<!doctype>
+<html>
+<head>
+	<title>The Great Tag Generator</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src="libs/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="libs/jspdf.js"></script>
+	<script type="text/javascript" src="libs/BlobBuilder.min.js"></script>
+
+	<script type="text/javascript" src="libs/standard_fonts_metrics.js"></script>
+	<script type="text/javascript" src="libs/split_text_to_size.js"></script>
+	<script type="text/javascript" src="libs/centeredText.js"></script>
+	
+</head>
+
+<body>
+
+	<div id="drop_wrapper">
+		<div id="drop_zone">
+			<p id="drop_help_text">Drop files here</p>
+		</div>
+		<output id="list"></output>
+	</div>
+
+	<iframe id="pdf" frameborder="0" width="100%" height="100%"></iframe>
+	
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

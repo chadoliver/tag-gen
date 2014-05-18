@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	border: 0;
+	padding: 0;
+
+	height:100%; 
+}
+
+iframe {
+	display: none;
+	margin: 0;
+	border: 0;
+	padding: 0;
+
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+#drop_wrapper {
+	width: 100%;
+	height: 100%;
+
+	margin: 0;
+	border: 0;
+	padding: 25px;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#drop_zone {
+	text-align: center;
+    color: #BBB;
+
+    border: 4px dashed #BBB;
+    border-radius: 15px;
+    
+    display:block;
+    height: 100%;
+    width: 100%;
+}
+
+#drop_help_text {
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #555;
+	word-wrap: break-word;
+}
